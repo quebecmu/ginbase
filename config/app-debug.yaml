@@ -1,0 +1,17 @@
+application:
+  name: ginbase
+  port: 924
+logInfo:
+  level: "debug"
+  path: "./log/ginbase.log"
+  maxSize: 1000
+  maxAge: 3600
+  maxBackups: 5
+mysqlInfo:
+  url: "root:12345678@tcp(127.0.0.1:3306)/?charset=utf8&parseTime=true&loc=Local"
+redisInfo:
+  host: 127.0.0.1
+  port: 6379
+  network: tcp
+  password: 123456
+  db: 5
